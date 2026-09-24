@@ -12,6 +12,7 @@ https://github.com/user-attachments/assets/e92984c7-3ed2-4124-8a9a-9fa43f5bacdb
 
 https://github.com/user-attachments/assets/e5b28d46-e47a-43ad-a86f-38a0f0543565
 
+Different configurations of the n bodies are provided in the text file with their respective velocities and positions.
 ---
 
 ## Technical Highlights & Architecture
