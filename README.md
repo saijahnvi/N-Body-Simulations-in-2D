@@ -1,6 +1,6 @@
 # 2D N-Body Gravity Simulator
 
-An interactive real-time $N$-body physics simulation engine built in **C++20** using **Modern OpenGL (3.3 Core Profile)**, **GLFW**, **GLEW**, and **GLM**. It models pairwise mutual gravitational interaction between multiple celestial bodies in 2D space while handling real-time elastic collision response and positional overlap correction.
+An interactive real-time physics simulation engine built in **C++20** using **Modern OpenGL (3.3 Core Profile)**, **GLFW**, **GLEW**, and **GLM**. It models pairwise mutual gravitational interaction between multiple celestial bodies in 2D space while handling real-time elastic collision response and positional overlap correction.
 
 ---
 
@@ -17,7 +17,7 @@ Different configurations of the n bodies are provided in the text file with thei
 
 ## Technical Highlights & Architecture
 
-### 1. $N$-Body Gravitational Mechanics
+### 1. Gravitational Mechanics
 The engine computes pairwise mutual gravitational attraction across all active bodies ($O(N^2)$ algorithmic complexity per frame). Acceleration vectors are calculated by applying Newton's Law of Universal Gravitation combined with 2D unit vector normalization:
 
 $$\vec{a}_i = G \sum_{j \neq i} \frac{m_j}{\vert{}\vec{r}_{ij}\vert{}^2} \hat{r}_{ij}$$
